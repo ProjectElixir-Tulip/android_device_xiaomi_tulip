@@ -13,3 +13,12 @@ cc_library_shared {
     ],
     vendor: true,
 }
+
+cc_library_shared {
+    name: "libims_shim",
+    srcs: ["libims_shim/Surface.cpp"],
+    shared_libs: [
+        "libgui",
+        "libutils",
+    ],
+}
