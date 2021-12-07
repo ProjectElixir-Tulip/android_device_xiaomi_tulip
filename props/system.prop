@@ -24,6 +24,9 @@ ro.sys.fw.dex2oat_thread_count=8
 # Disable remote keyguard animation
 persist.wm.enable_remote_keyguard_animation=0
 
+# DHA Tunning
+ro.config.dha_tunnable=1
+
 # Increase Scrool Smoothness 
 ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
@@ -64,3 +67,10 @@ persist.rcs.supported=1
 
 # RIL
 persist.sys.fflag.override.settings_provider_model=false
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# Venom
+ro.surface_flinger.running_without_sync_framework=true
