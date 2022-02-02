@@ -681,8 +681,8 @@ vendor/lib/libois_lc898122.so
 vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
 vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
-# Charger - from jasmine
-vendor/bin/hvdcp_opti|120837d6d44abfd86515731dd26183be9cdd5596
+# Charger - from m690-user 11 RKQ1.210607.001 00WW_3_440 release-keys
+vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from jasmine
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
