@@ -21,6 +21,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Dex2oat
 ro.sys.fw.dex2oat_thread_count=8
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # Increase Scrool Smoothness 
 ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
