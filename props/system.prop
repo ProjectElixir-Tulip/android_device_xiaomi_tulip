@@ -72,5 +72,8 @@ persist.sys.fflag.override.settings_provider_model=false
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 
+# Time
+persist.vendor.delta_time.enable=true
+
 # Venom
 ro.surface_flinger.running_without_sync_framework=true
