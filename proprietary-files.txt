@@ -44,7 +44,7 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
 
 # Alarm - from ddv_sprout
--product/app/PowerOffAlarm/PowerOffAlarm.apk|f0cc40c9080ae5784f7728067ad9b2c7d0de6907
+product/app/PowerOffAlarm/PowerOffAlarm.apk|f0cc40c9080ae5784f7728067ad9b2c7d0de6907
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|586b142f9bc4bf3098b4962682c4de1c13810f9b
 vendor/bin/power_off_alarm|b8c7ddc1bed336753c3746925fd0f4a9925aa36c
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
@@ -686,8 +686,8 @@ vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from ddv_sprout
--vendor/app/CneApp/CneApp.apk|13bdf6ba5637d3df3d6d9fb0017f9f56ddc620e7
--vendor/app/IWlanService/IWlanService.apk|a189d8879b4cf5026db2d6a80abb3a1319e38f0c
+vendor/app/CneApp/CneApp.apk|13bdf6ba5637d3df3d6d9fb0017f9f56ddc620e7
+vendor/app/IWlanService/IWlanService.apk|a189d8879b4cf5026db2d6a80abb3a1319e38f0c
 vendor/bin/cnd|07829b294562037b779a6e7244972d7c24e758a5
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -764,7 +764,7 @@ system_ext/lib64/libdpmfdmgr.so|bf3666db17e77da3a303c10579baec0bd018089f
 system_ext/lib64/libdpmframework.so|235fbb48b47baebd48dbe56f72c77d97ca12c07c
 system_ext/lib64/libdpmtcm.so|dff3d3dbacd18ed55b5758a174f5016ef9e7a896
 system_ext/lib64/vendor.qti.diaghal@1.0.so|abe51fdbdcbf3449012395cf0ade8aa8d267dbe6
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|61a4e791ebd5c3bc4025fd0242b029b388530b98
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|61a4e791ebd5c3bc4025fd0242b029b388530b98
 vendor/bin/dpmQmiMgr|3c553042d4257161adb75c0979c829b0cb050639
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
@@ -811,7 +811,7 @@ vendor/firmware/fpctzappfingerprint.b07
 vendor/firmware/fpctzappfingerprint.mdt
 
 # Fingerprint sensor - from tulip
--vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
+vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/hw/fingerprint.fpc.default.so
@@ -847,7 +847,7 @@ vendor/bin/lowi-server|6c66e4c543d67af692ff7c78f12fc90cc4bd0bcd
 vendor/bin/mlid|a36c293c13e1929f8943ac8518e27065c0f51ae3
 vendor/bin/slim_daemon|8b83f55aace84b0519d73a16c64ed38152cc7805
 vendor/bin/xtra-daemon|cd0305e252493d65780b5ff188f937f84c64675a
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 -vendor/lib/libqsocket.so|50079ff493b17465ff8f44d8210d26e3c7279065
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|244050e4081a6bec273d5481916754b77a52890d
@@ -1063,12 +1063,12 @@ vendor/lib64/libqmi_encdec.so|a18bb21e5b9b53e3dc8dc45f6e7e65e32a467607
 vendor/lib64/libqmiservices.so|52770edf3e35f5376f3d0a131636f3213c9e59fa
 
 # Radio - from ddv_sprout
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|712ba653c60066e815b62cd54589e8511bcdb8f9
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|712ba653c60066e815b62cd54589e8511bcdb8f9
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4ba0680d04581d8bd9acba3ddb8ea22f85747910
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|a268324fd64b178fbcc8293a58e656e4dcd82ffa
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|a268324fd64b178fbcc8293a58e656e4dcd82ffa
 vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
 vendor/bin/ATFWD-daemon|e1d493d251232dc7787e8f9fe76c027830c63855
 vendor/bin/adpl|6bbc42cea3f882498e9bae6563659dc6538340e7
@@ -1135,8 +1135,8 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|75a58827c0b4e06e
 vendor/radio/qcril_database/qcril.db|86286c24a227cb968dac1f7ccfe0ad26fe4fd462
 
 # Radio - IMS - from ddv_sprout
--system_ext/app/imssettings/imssettings.apk|8e27882a4ecd10d69a5774b2834781cc60628a3f
--system_ext/app/uceShimService/uceShimService.apk|3b5b6fb89581e92eb151fcc9ddffe53609e6dd4c
+system_ext/app/imssettings/imssettings.apk|8e27882a4ecd10d69a5774b2834781cc60628a3f
+system_ext/app/uceShimService/uceShimService.apk|3b5b6fb89581e92eb151fcc9ddffe53609e6dd4c
 system_ext/lib64/lib-imscamera.so|49ead972646b09d700556d63676673b3e8af2036
 system_ext/lib64/lib-imsvideocodec.so|a274871b7b9a5809300f95d48ad8390ea01ad38b
 system_ext/lib64/lib-imsvt.so|4f96cc5f27551d0b6cb11ad6447d9ce8829dde47
@@ -1145,7 +1145,7 @@ system_ext/lib64/lib-imsvtutils.so|b4a39a247f767723ce67182ee92f526c029a019d
 system_ext/lib64/libimscamera_jni.so|486abdb09a82ccee5e49307a17ba3dc9efdf5e9d
 system_ext/lib64/libimsmedia_jni.so|f8be2575f8eaef8bb89a4bc049381ebffe857831
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
--system_ext/priv-app/ims/ims.apk|a7efccc4a143b36493cc7f0226fecde61c93c4ec
+system_ext/priv-app/ims/ims.apk|a7efccc4a143b36493cc7f0226fecde61c93c4ec
 vendor/bin/ims_rtp_daemon|ed5c13c758080d79a9371061d53127d406475614
 vendor/bin/imsdatadaemon|701f9a2eaa2674bcaa7e69817bdcb656e99fcac9
 vendor/bin/imsqmidaemon|5fde955e71392479b2f3e6aaf6005fa54b618678
@@ -1221,7 +1221,7 @@ vendor/bin/thermal-engine|6ee391c0b9f8d4ceea57521f584b75c60d2ffa09
 vendor/lib64/libthermalfeature.so|a1d99d33946d99ca620c6f5a8f4759d600a89086
 
 # Time services - from ddv_sprout
--vendor/app/TimeService/TimeService.apk|aacffbb597e40db705171966174f7242a5a5b4b4
+vendor/app/TimeService/TimeService.apk|aacffbb597e40db705171966174f7242a5a5b4b4
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
@@ -1234,7 +1234,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003
 # Widevine - from ddv_sprout
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
 
 # Wifi - from ddv_sprout
