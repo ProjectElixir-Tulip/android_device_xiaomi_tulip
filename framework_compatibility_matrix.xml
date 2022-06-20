@@ -48,7 +48,7 @@
 <hal format="hidl" optional="true">
     <name>android.hardware.gnss</name>
     <version>1.0</version>
-    <version>2.0</version>
+    <version>2.0-1</version>
     <interface>
         <name>IGnss</name>
         <instance>gnss_vendor</instance>
@@ -165,10 +165,10 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>com.qualcomm.qti.ant</name>
+    <name>com.dsi.ant</name>
     <version>1.0</version>
     <interface>
-        <name>IAntHci</name>
+        <name>IAnt</name>
         <instance>default</instance>
     </interface>
 </hal>
@@ -190,7 +190,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>com.qualcomm.qti.uceservice</name>
-    <version>2.0-1</version>
+    <version>2.0-3</version>
     <interface>
         <name>IUceService</name>
         <instance>com.qualcomm.qti.uceservice</instance>
@@ -230,7 +230,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>vendor.qti.data.factory</name>
-    <version>2.0-1</version>
+    <version>2.0-2</version>
     <interface>
         <name>IFactory</name>
         <instance>default</instance>
@@ -249,6 +249,7 @@
     <version>1.0-2</version>
     <version>2.0-1</version>
     <version>3.0</version>
+    <version>4.0</version>
     <interface>
         <name>ILocHidlGnss</name>
         <instance>gnss_vendor</instance>
@@ -272,7 +273,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>vendor.qti.hardware.bluetooth_sar</name>
-    <version>1.0</version>
+    <version>1.0-1</version>
     <interface>
         <name>IBluetoothSar</name>
         <instance>default</instance>
@@ -280,7 +281,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>vendor.qti.hardware.btconfigstore</name>
-    <version>1.0</version>
+    <version>2.0</version>
     <interface>
         <name>IBTConfigStore</name>
         <instance>default</instance>
@@ -375,7 +376,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>vendor.qti.hardware.radio.ims</name>
-    <version>1.0-5</version>
+    <version>1.0-6</version>
     <interface>
         <name>IImsRadio</name>
         <instance>imsradio0</instance>
@@ -384,7 +385,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>vendor.qti.hardware.radio.lpa</name>
-    <version>1.0</version>
+    <version>1.0-1</version>
     <interface>
         <name>IUimLpa</name>
         <instance>UimLpa0</instance>
@@ -403,7 +404,7 @@
 <hal format="hidl" optional="true">
     <name>vendor.qti.hardware.radio.qtiradio</name>
     <version>1.0</version>
-    <version>2.0-3</version>
+    <version>2.0-4</version>
     <interface>
         <name>IQtiRadio</name>
         <instance>slot1</instance>
@@ -462,8 +463,16 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
+    <name>vendor.qti.ims.factory</name>
+    <version>1.0</version>
+    <interface>
+        <name>IService</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
     <name>vendor.qti.imsrtpservice</name>
-    <version>2.0-1</version>
+    <version>3.0</version>
     <interface>
         <name>IRTPService</name>
         <instance>imsrtpservice</instance>
