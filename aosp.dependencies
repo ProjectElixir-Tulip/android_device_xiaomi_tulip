@@ -13,12 +13,6 @@
    "remote"     : "github"
  },
  {
-    "repository" : "tedomi2705/vendor_PixelLauncher",
-    "target_path": "vendor/PixelLauncher",
-    "remote"     : "github",
-    "revision"   : "dt2s"
- },
- {
     "repository" : "ArrowOS/android_hardware_qcom_display",
     "target_path": "hardware/qcom-caf/msm8998/display",
     "remote"     : "github",
