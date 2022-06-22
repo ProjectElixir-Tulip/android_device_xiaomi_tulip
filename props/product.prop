@@ -1,3 +1,7 @@
 # Charger
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
+
+# Elixir Stuff
+ro.elixir.maintainer=Rahul Pal XDA
+org.elixir.device=Redmi Note 6 Pro
