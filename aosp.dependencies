@@ -6,13 +6,6 @@
     "revision"   : "rebase"
  },
  {
-   "repository" : "kdrag0n/proton-clang",
-   "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
-   "branch"     : "master",
-   "clone-depth": "1",
-   "remote"     : "github"
- },
- {
     "repository" : "ArrowOS/android_hardware_qcom_display",
     "target_path": "hardware/qcom-caf/msm8998/display",
     "remote"     : "github",
